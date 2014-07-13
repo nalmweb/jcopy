@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<config>
+    <site>
+        <name>Motofriends.ru</name>
+        <base_http_host>beta.motofriends.ru</base_http_host>
+        <site_name_as_string>beta.motofriends.ru</site_name_as_string>
+        <site_name_as_domain>motofriends.ru</site_name_as_domain>
+	<site_name_as_full_domain>http://beta.motofriends.ru</site_name_as_full_domain>
+        <domain_for_email>motofriends.ru</domain_for_email>
+    </site>
+</config>
+

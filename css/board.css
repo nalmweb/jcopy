@@ -1,0 +1,9 @@
+.b_block{
+  float:left;
+  width:33%;
+}
+
+.b_block .title {
+	color:#ff0000;
+	font-size:14px;
+}

@@ -1,0 +1,66 @@
+.calendar-table {
+  border-top: 1px solid #E7F2D4;
+  margin-bottom: 3px;
+  border-collapse: collapse;
+}
+.calendar-bottom {
+  border-bottom: 1px solid #E7F2D4;
+}
+.calendar-padding {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.calendar-calendar-week {
+  width: 66px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.calendar-calendar-day {
+  border: 1px dashed #808080;
+  width: 60px;
+  _width: 68px;
+  height: 60px;
+  _height: 68px;
+  margin: 0 3px 3px 0;
+  position: relative;
+  padding: 2px 2px 2px 2px;
+}
+
+.calendar-calendar-day-number {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #EAEAEA;
+  padding: 1px 2px 1px 2px;
+  color: #808080;
+}
+
+.calendar-attendance-yes {
+  border: 1px solid #008000;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+}
+.calendar-attendance-no {
+  border: 1px solid #FF0000;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+}
+.calendar-attendance-maybe {
+  border: 1px solid #808080;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+}
+
+.calendar-edit-event-fieldtitle {
+
+text-align:right;
+font-weight:bold;
+width:100px;
+
+
+}

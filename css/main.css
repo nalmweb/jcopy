@@ -1,0 +1,364 @@
+* {	margin: 0px;padding: 0px;
+}
+html, body {
+background:#FFFFFF url(bg_top.gif) repeat-x scroll center top;
+color:#2D2E36;
+font-family:Tahoma,Arial,Verdana;
+font-size:12px;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+margin:0px;
+padding:0px;
+}
+#all {background: #FFFFFF;
+}
+#header {padding: 23px 23px 23px 50px;
+}
+.banner {float: right;
+}
+.user {	padding: 12px 2px 0px 12px;
+}
+.user #form1 table {text-align: left;vertical-align: bottom;float: right;
+}
+.user #form1 td {padding: 3px;
+}
+.user #form1 .in, .search #form2 .in{width: 80px;font-size: 11px;border-top: 2px solid #9D9DB0;border-right: 2px solid #CCCCCC;	border-bottom: 2px solid #E6E6E6;border-left: 2px solid #CCCCCC;padding: 2px 3px;
+}
+.user #form1 .but {	font-size: 11px;padding: 2px 7px;
+}
+.opros .blog .user td{padding: 5px 12px 5px 0px;white-space: nowrap;
+}
+.opros .blog .user img {border: 1px solid #CCCCCC;
+}
+.content {padding: 0px 20px 22px 50px;
+}
+.kategorii {text-align: left;vertical-align: top;
+}
+.kategorii td {	text-align: left;vertical-align: top;
+}
+.new_kat {border-bottom: 1px solid #CCCCCC;	margin: 15px;
+}
+.new {padding: 8px 0px; 
+}
+.new img {float: left;padding: 0px 12px 8px 0px;
+}
+.new p {padding: 0px;
+}
+.new h1 {font: normal 18px tahoma, verdana;color: #c90404;padding: 0px;
+}
+.new h1 b {	font: bold 13px "trebuchet MS", Arial, verdana;
+}
+.new h1 a {	color: #C90404;	text-decoration: none;
+}
+.new h1 a:hover {	color: #4F789F;
+}
+.new .date {display: block;list-style: none;clear: both;
+}
+.new .date li {float: left;	display: block;	padding: 5px 3px 5px 0px;
+}
+.new .date a {color: #C90404;
+}
+.new .date img {float: none;clear: both;padding: 0px 8px 0px 0px;
+}
+
+.col_left {padding: 0px 32px 0px 0px;
+}
+.col_left2 {width: 344px;
+}
+.col_right {width: 240px;
+}
+.col_right2 {width: 184px;padding-top: 32px;
+}
+.more_news {border: 1px solid #e0ded9;background: #f1f2ed;padding: 13px;margin-bottom: 22px;
+}
+.more_news a {color: #0082D1;text-decoration: none;
+}
+.more_news p {padding: 2px 0px;
+}
+.more_news b {color: #FF0033;font-weight: normal;
+}
+.rss {color: #C90404;font-size: 12px;text-decoration: none;padding: 0px 0px 0px 15px;
+}
+a.rss:hover {text-decoration:underline; }
+
+.more_news .user {display: block;font-size: 11px;height: 54px;
+}
+.more_news .user a {text-decoration: underline;
+}
+.more_news .user img {float: left;padding: 0px 8px 5px 0px;
+}
+.pages {text-align: center;vertical-align: top;	padding: 22px 0px 32px;
+}
+.pages a {padding: 1px 3px;
+}
+.full {	background: #FFFFCC;text-align: center;	margin-top: 12px;
+}
+.search {text-align: center;vertical-align: top;padding: 54px 0px;
+}
+.search #form2 td {	text-align: left;vertical-align: top;padding: 3px;color: #83839C;font: bold 13px Arial, Helvetica, sans-serif;
+	white-space: nowrap;
+}
+.search #form2 .in {width: 160px;font-size: 11px;padding: 3px;color: #4F789F;
+}
+.search #form2 .but {padding: 2px 7px;font-size: 11px;	float: right;
+}
+.content td {vertical-align: top;
+}
+.top {width: 100%;color: #362f2d;border-top: 1px solid #CCCCCC;
+}
+.top th {text-align: left;border-bottom: 1px solid #CCCCCC; padding: 12px;
+}
+.top td {border-bottom: 1px solid #CCCCCC;color: #362f2d;padding: 8px;
+}
+.top .right b { font-size: 18px;
+}
+.top .right {color: #a49791;text-align: center;
+}
+.cut {background: url(/images/line.gif) repeat-y center;width: 20px;
+}
+.contry b{	font: bold 13px "trebuchet MS", Arial, verdana;
+}
+.opros h1 a {color: #CC0000;
+}
+.opros .blog {padding: 12px 32px;
+}
+.opros .blog p {padding: 0px;
+}
+.opros form {text-align: center;
+}
+.opros input {font: bold 16px Arial, Helvetica, sans-serif;	padding: 2px 7px;color: #006699;
+}
+#menu {padding: 0px 0px 0px 5px;height: 32px;list-style: none;background: url(/images/bg_menu.gif) repeat-x top;
+}
+#menu li {list-style-type: none;float: left;display: inline;
+}
+#menu a {display: block;
+}
+.b1 a{background: url('/images/1_02.gif') no-repeat left top;}
+.b2 a{background: url('/images/1_03.gif') no-repeat left top;}
+.b3 a{background: url('/images/1_04.gif') no-repeat left top;}
+.b4 a{background: url(/images/1_05.gif) no-repeat left top;}
+.b5 a{background: url(/images/1_06.gif) no-repeat left top;}
+.b6 a{background: url(/images/1_07.gif) no-repeat left top;}
+.b7 a{background: url(/images/1_08.gif) no-repeat left top;}
+.b8 a{background: url(/images/1_09.gif) no-repeat left top;}
+.b9 a{background: url(/images/1_10.gif) no-repeat left top;}
+
+.b1 a:hover{background: url('/images/1_02.gif') no-repeat left -32px;}
+.b2 a:hover{background: url('/images/1_03.gif') no-repeat left -32px;}
+.b3 a:hover{background: url(/images/1_04.gif) no-repeat left -32px;}
+.b4 a:hover{background: url(/images/1_05.gif) no-repeat left -32px;}
+.b5 a:hover{background: url(/images/1_06.gif) no-repeat left -32px;}
+.b6 a:hover{background: url(/images/1_07.gif) no-repeat left -32px;}
+.b7 a:hover{background: url(/images/1_08.gif) no-repeat left -32px;}
+.b8 a:hover{background: url(/images/1_09.gif) no-repeat left -32px;}
+.b9 a:hover{background: url(/images/1_10.gif) no-repeat left -32px;}
+
+.b1 .select{background: url('/images/1_02.gif') no-repeat left bottom;}
+.b2 .select{background: url('/images/1_03.gif') no-repeat left bottom;}
+.b3 .select{background: url(/images/1_04.gif) no-repeat left bottom;}
+.b4 .select{background: url(/images/1_05.gif) no-repeat left bottom;}
+.b5 .select{background: url(/images/1_06.gif) no-repeat left bottom;}
+.b6 .select{background: url(/images/1_07.gif) no-repeat left bottom;}
+.b7 .select{background: url(/images/1_08.gif) no-repeat left bottom;}
+.b8 .select{background: url(/images/1_08.gif) no-repeat left bottom;}
+.b9 .select{background: url(/images/1_08.gif) no-repeat left bottom;}
+
+#menu .b10 {float: right;padding-right: 55px;
+}
+.fotos {padding: 12px 0px;
+}
+.fotos img {padding: 0px 12px 12px 0px;
+}
+.foto_gall {float: left;font-size: 11px;color: #9195a4;padding: 22px 32px 0px 0px;
+}
+.foto_gall h1 {	font: bold 13px Arial, Helvetica, sans-serif;color: #000000;
+}
+.gall .middle {vertical-align: middle;color: #a49791;font: bold 16px "trebuchet MS", Arial, verdana;padding: 0px 22px 22px;
+}
+.gall{padding-left: 42px;
+}
+.footer {background: url(/images/bg_footer.gif) repeat-x top;text-align: center;vertical-align: top;width: 100%;
+}
+.footer li {list-style: none;display: inline;
+}
+.footer td {text-align: left;vertical-align: top;border-left: 1px solid #e7e7e7;
+}
+.footer a {color: #b3a7a0;text-decoration: none;padding: 1px 0px 1px 12px;display: block;
+}
+.footer a:hover {color: #948278;
+}
+.footer h1 {font: bold 14px Arial, Helvetica, sans-serif;padding: 0px;
+}
+.footer div {padding: 31px 0px 41px;
+}
+h1 {color:#4f789f;padding: 5px 0px;	font-size: 18px;font-weight: normal;display: block;
+}
+h2 {color: #666666;	padding-top: 8px;padding-bottom: 8px;font: bold 15px Arial, Helvetica, sans-serif;
+}
+h3 {font-size: 24px;color: #4f789f;padding: 5px 0px;
+}
+h4 {color: #79896d;	font-size: 18px;font-weight: normal;padding: 5px 0px;
+}
+h1 a {color: #4f789f;
+}
+.black {color: #000000;font-size: 24px;	font-weight: bold;padding-top: 12px;
+}
+a {	color: #0082D1;	text-decoration: underline;
+}
+a:hover {color: #C90404;
+}
+.grey {color: #9197a4;font-size: 12px;
+}
+.grey a{font-size: 16px;
+}
+#clear {clear: both;height: 1px;
+}
+img {border-style: none;
+}
+p {	padding: 8px 0px;
+}
+
+/* @group form */
+
+form.fc .profile_view { 
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 150px; /* set top margin same as form input - textarea etc. elements */
+	text-align: left;
+	margin-top: 5px;
+	padding: 0 0 0 10px;
+}
+
+form.fc {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+  font:100% verdana,arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 500px;
+  max-width: 600px;
+  width: 560px; 
+}
+
+form.fc fieldset {
+  / * clear: both; note that this clear causes inputs to break to left in ie5.x mac, commented out */
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;        /* padding in fieldset support spotty in IE */
+  margin: 0;
+}
+
+form.fc fieldset legend {
+	font-size:1.1em; /* bump up legend font size, not too large or it'll overwrite border on left */
+                       /* be careful with padding, it'll shift the nice offset on top of border  */
+}
+
+form.fc label { 
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 150px; 
+	padding: 0; 
+	margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+	text-align: right; 
+}
+
+form.fc input, form.fc textarea, form.fc select, form.fc input {
+	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+	width:auto;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
+                              label aligns textarea better in IE */
+}
+
+form.fc input#reset {
+	margin-left:0px; /* set margin-left back to zero on reset button (set above) */
+}
+
+form.fc textarea { overflow: auto; }
+
+form.fc small {
+	display: block;
+	margin: 0 0 5px 160px; /* instructions/comments left margin set to align w/ right column inputs */
+	padding: 1px 3px;
+	font-size: 88%;
+}
+
+form.fc .required{font-weight:bold;} /* uses class instead of div, more efficient */
+
+form.fc br {
+	clear:left; /* setting clear on inputs didn't work consistently, so brs added for degrade */
+}
+/* @end */
+
+/* @group table */
+
+
+/* admin news: */
+.okNews{
+  background-color:#fff;
+}
+.notOkNews{
+background-color:#eee;
+}
+
+.adminNews{
+}
+
+.adminNews li {
+ height:25px;
+}
+
+#addPhoto{
+  display:none;
+}
+
+/* some stuff for comments */
+.ic_savebutton   { background-color:#00A665;/* #36f;*/ color: #fff; }
+.ic_cancelbutton { background-color:#B50000;color: #fff; }	
+.hid{display:none;}
+.show{display:inline;}
+
+/* some stuff for comments */
+.ic_savebutton   { background-color:#00A665;/* #36f;*/ color: #fff; }
+.ic_cancelbutton { background-color:#B50000;color: #fff; }	
+.show { display:inline; }
+
+.hid  { display:none;}
+
+
+.feed {font: bold 16px Arial, Helvetica, sans-serif; padding: 2px 20px;padding-bottom:20px;color: #006699;
+}
+.content table tr td {
+	border-bottom: 0px solid #e6e6e6;
+	padding: 5px;
+	border-right: 0px solid #e6e6e6;
+	border-left: 0px solid #e6e6e6;
+}
+.content table th {
+	padding: 5px;
+	background-color: #e6e6e6;
+	text-decoration: none;
+	border: 0px solid #ccc;
+}
+
+.content table {
+	border-collapse: collapse;
+}
+
+
+.last_photos_index div  {
+	float: left;
+	margin: 10px;
+	font-size: x-small;
+}
+
+.last_photos_index #pic  {
+	margin-bottom: 3px;
+}
+
+.last_photos_index #avatar_s  {
+	border: 1px solid #e6e6e6;
+}

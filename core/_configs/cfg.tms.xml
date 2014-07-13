@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<config>
+    <tms>
+        <name>MANAGMENT SYSTEM (MS)</name>
+        <version>0.1.0.0</version>
+        <author>MotoFriends</author>       
+        <copyright>Copyright © 2006-2007. All rights reserved.</copyright>
+    </tms>
+</config>    
+

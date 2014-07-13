@@ -1,0 +1,365 @@
+body {
+	margin:0;
+	padding:0;
+	font: 12px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#logo {
+	color: #666;
+	font-size: 250%;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/* @group menu */
+
+#tabs {
+      float:left;
+      width:100%;
+      background:#F4F4F4;
+      font: bold 11px/1.5em Verdana;
+      line-height:normal;
+	  margin-bottom: 10px;
+      }
+    #tabs ul {
+	  margin:0;
+	  padding:10px 10px 0 50px;
+	  list-style:none;
+      }
+    #tabs li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabs a {
+      float:left;
+      background:url("../images/tableft.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabs a span {
+      float:left;
+      display:block;
+      background:url("../images/tabright.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabs a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabs a:hover span {
+      color:#000;
+      }
+    #tabs a:hover {
+      background-position:0% -42px;
+      }
+    #tabs a:hover span {
+      background-position:100% -42px;
+      }
+
+/* @end */
+
+a {
+ 	color: rgb(60, 76, 124);
+	text-decoration:none;
+	font-size:12px;
+}
+
+a:hover {
+	color:#333333;
+}
+
+/* @group user_login */
+
+#user_login {
+	right: 5px;
+	top: 5px;
+	position: absolute;
+	/*z-index:1;*/
+}
+
+#text {
+	float: left;
+	text-align: right;
+}
+
+#user_icon {
+	border: 1px solid #cbd1d4;
+	margin-left: 10px;
+}
+
+/* @end */
+
+#page_title {
+	font-size: 150%;
+	padding-top: 10px;
+	margin-left: 20px;
+
+}
+
+/* @group news */
+
+#news_block {
+	margin-left: 30px;
+	border: 1px none #ccc;
+	padding: 10px;
+}
+
+#news_block p {
+	text-indent: 15px;
+}
+
+/* @end */
+
+/* @group new users from location */
+
+#new_users_from_location {
+	position: relative;
+	height: 300px;
+	float: right;
+	width: 230px;
+}
+
+#new_users_icon {
+	width: 48px;
+	height: 48px;
+	float: left;
+}
+
+#new_users_icon img {
+	border: 1px solid #cbd1d4;
+}
+
+#new_users_info {
+	left: 10px;
+	position: relative;
+}
+
+/* @end */
+
+#foot_navigation {
+	width: 100%;
+	background-color: #e8e8e8;
+	height: 90px;
+}
+
+#foot_blocks {
+	text-align: left;
+	margin: 20px;
+	float: left;
+}
+
+#foot_blocks span {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#foot_blocks a {
+	text-decoration: none;
+	color: #3875d7;
+}
+
+#foot_blocks a:hover {
+	text-decoration: underline;
+	color: #2b5ba9;
+}
+
+#map_view {
+	border: 1px solid #000;
+	height: 300px;
+}
+
+#form_map {
+	text-align: center;
+}
+
+#meet_name_list {
+	font-size: 110%;
+}
+
+#meet_name_desc {
+	font-size: 80%;
+}
+
+#meet_info {
+	width: 45%;
+	padding-left: 30px;
+}
+
+#meet_question {
+	color: #999;
+}
+
+#meet_map {
+	float: right;
+	width: 50%;
+	height: 250px;
+}
+
+#meet_yes {
+	color: #008400;
+	font-weight: bold;
+	font-size: 140%;
+}
+
+#meet_no {
+	color: #f00;
+	font-weight: bold;
+	font-size: 140%;
+}
+
+#meet_service_menu {
+	background-color: #e6e6e6;
+	border: 1px solid #ccc;
+	width: 120px;
+	padding: 10px;
+	float: right;
+	right: 30px;
+	position: relative;
+}
+
+#meet_photo {
+	float: right;
+	width: 50%;
+}
+
+#meet_subscribers {
+	width: 50%;
+	padding-left: 30px;
+}
+
+img {
+border:none;
+}
+
+/* Tab navigation */
+ul.primary {
+    border-collapse: collapse;
+    padding: 0 0 0 1em;
+    white-space: nowrap;
+    list-style: none;
+    margin: 5px;
+    height: auto;
+    line-height: normal;
+    border-bottom: 1px solid #bbb;
+    text-decoration: none;	
+}
+ul.primary li {
+    display: inline;
+}
+ul.primary li a {
+    background-color: #ddd;
+    border-color: #bbb;
+    border-width: 1px;
+    border-style: solid solid none solid;
+    height: auto;
+    margin-right: 0.5em;
+    padding: 0 1em;
+    text-decoration: none;
+}
+ul.primary li.active a {
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-bottom: #fff 1px solid;
+}
+ul.primary li a:hover {
+    background-color: #eee;
+    border-color: #ccc;
+    border-bottom-color: #eee;
+}
+ul.secondary {
+    border-bottom: 1px solid #bbb;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 5px;
+}
+ul.secondary li {
+    display: inline;
+    padding: 0 1em;
+    border-right: 1px solid #ccc;
+}
+ul.secondary a {
+    padding: 0;
+    text-decoration: none;
+}
+ul.secondary a.active {
+    border-bottom: 4px solid #999;
+}
+
+#big_nick a  {
+	font-size: 250%;
+	color: #808080;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#big_nick img  {
+	vertical-align: middle;
+}
+
+#comment_block
+{
+	
+}
+
+
+.comment
+{
+    position: relative;
+    border: solid 1px black;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.comment h1 {
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.comment p {
+    margin: 10px;
+    margin-left: 2em;
+}
+
+.comment .killer {
+    position: absolute;
+    right:3px;
+    top: 3px;
+    border: none;
+    width:  21px;
+    height: 20px;
+}
+
+
+#comment_tpl
+{
+  border:solid 1px #eee;
+}
+	
+#load
+{
+ visibility:hidden;background-color:#eee;
+ height:80px;	
+ width:200px;
+ border:3px solid #ddd;
+}
+
+/* admin news: */
+.okNews{
+background-color:#fff;
+}
+.notOkNews{
+background-color:#eee;
+}
+
+.adminNews{
+}
+
+.adminNews li {
+ height:25px;
+}
+
+#addPhoto{
+  display:none;
+}

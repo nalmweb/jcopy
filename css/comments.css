@@ -1,0 +1,36 @@
+.coment {padding: 0px 42px 12px 0px;
+}
+.coment i {	font-style: normal;	color: #999999;
+}
+.coment a, .contry a{	color: #0082d1;
+}
+.coment p {	padding: 0px;
+}
+.coment img {float: left;border: 0px solid #CCCCCC;	margin: 0px 8px 8px 0px;
+}
+.coment #clear a {	float: right;
+}
+.coment form {padding: 22px 0px 0px;
+}
+.coment textarea {width: 100%;
+}
+.coment input {	float: right;clear: left;margin-top: 12px;font-size: 11px;font-weight: bold;color: #333333;	padding: 2px 7px;
+}
+
+.rating{
+  width:20px;
+/*  border:solid 2px #eee;*/
+  float:left;
+  font-weight: bold;
+}
+
+/* some stuff for comments */
+.ic_savebutton   { background-color:#00A665;/* #36f;*/ color: #fff; }
+.ic_cancelbutton { background-color:#B50000;color: #fff; }	
+.hid{display:none;}
+.show{display:inline;}
+
+/* some stuff for comments */
+.ic_savebutton   { background-color:#00A665;/* #36f;*/ color: #fff; }
+.ic_cancelbutton { background-color:#B50000;color: #fff; }
+#spin { display:none;}

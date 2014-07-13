@@ -1,0 +1,36 @@
+AddDefaultCharset utf8
+
+Options -Indexes
+DirectoryIndex index.php index.html index.htm
+Options +FollowSymlinks
+
+ErrorDocument 404 /
+
+# mod_rewrite settings
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^jcopy\.dev
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule  ^([^/]+)?/(.*)   index.php?/$1/$2 [L,QSA]
+
+
+RewriteCond %{HTTP_HOST} ^(.+)\.jcopy\.dev
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule  ^([^/]+)?/(.*)   index.php?/$1/$2 [L,QSA]
+
+
+# php settings
+php_value magic_quotes_gpc       0
+php_value magic_quotes_runtime   0
+php_value magic_quotes_sybase    0
+
+
+# Protect files and directories:
+<Files ~ "\.(ini|log|tmpl)$">
+  order deny,allow
+  deny from all
+</Files>
+
+
+

@@ -1,0 +1,112 @@
+html:first-child ul.MessagesMenu[class] {
+	margin-top: 8px;
+}
+
+.MessagesMenu {
+	float: left;
+	width: 92px;
+	padding: 0;
+	margin: 0;	
+	position: relative;
+	margin-right: -10px;
+}
+
+.MessagesMenu li {
+	background-image: url(../images/bkgMessagesMenuItem.gif);
+	background-position: left top;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	float: right;
+	clear: right;
+	width: 100%;
+}
+
+.MessagesMenu li.last {
+	background-image: url(../images/bkgMessagesMenuItemLast.gif);
+}
+
+.MessagesMenu li.first {
+	background: none;
+}
+
+.MessagesMenu li.first a {
+	color: #048;
+	font-size: 0.9em;
+}
+
+.MessagesMenu li.second {
+	background-image: url(../images/bkgMessagesMenuItemSecond.gif);
+}
+
+.MessagesMenu li.secondActive {
+	background-image: url(../images/bkgMessagesMenuItemSecondActive.gif);
+	margin-right: -1px;
+	padding-right: 1px;
+	position: relative;
+	display: inline;
+}
+
+.MessagesMenu li.lastActive {
+	background-image: url(../images/bkgMessagesMenuItemLastActive.gif);
+	margin-right: -1px;
+	padding-right: 1px;
+	position: relative;
+	display: inline;
+}
+
+.MessagesMenu li.firstActive {
+	background-image: url(../images/bkgMessagesMenuItemFirstActive.gif);
+	margin-right: -3px;
+	padding-right: 3px;
+	position: relative;
+	display: inline;
+	font-weight: bold;
+}
+
+.MessagesMenu li.firstActive .updated {
+	font-weight: normal;
+}
+
+.MessagesMenu li.active {
+	background-image: url(../images/bkgMessagesMenuItemActive.gif);
+	margin-right: -1px;
+	padding-right: 1px;
+	position: relative;
+	display: inline;
+}
+
+.MessagesMenu li.firstActive a {
+	color: #f60;
+	text-decoration: none;
+	padding-left: 9px;	
+	font-size: 0.9em;
+	line-height: 41px;
+}
+
+.MessagesMenu li.active a, .MessagesMenu li.secondActive a, .MessagesMenu li.lastActive a {
+	color: #f60;
+	text-decoration: none;
+	padding-left: 9px;
+}
+
+
+
+.MessagesMenu li a.updated {
+	font-weight: bold;
+}
+
+.MessagesMenu a {
+	font-size: 0.8em;
+	color: #333;
+	line-height: 31px;
+	padding: 0 0 0 10px;
+}
+
+.MessagesBox {
+	float: left;
+	text-align: left;
+	margin-left: 10px;	
+	display: inline;
+	width: 490px;
+}

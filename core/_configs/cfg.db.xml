@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<config>
+    <database>
+        <use>true</use>
+        <type>PDO_MYSQL</type>
+        <host>localhost</host>
+        <username>root</username>
+        <password></password>
+        <name>jcopy_db</name>
+    </database>
+</config>    
+

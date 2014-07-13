@@ -1,0 +1,17 @@
+.one-act,.bottom-news .news-box{ display:inline !important;}
+.coupon-list-view-1 .coupon-viewer-inner .description{float:none;}
+.comment-block {padding:0 15px 15px 15px;}
+.comment-block .left{margin-top:15px;}
+.tickets .match{border:none; width:40px; height:23px;}
+.dropdown dd ul li a {padding:2px 10px;}
+.popup {border:1px solid #838484;}
+#front{right:0px;}
+#secondsDownLeft{position:relative; left:3px;}
+#minutesDownLeft{position:relative; left:3px;}
+#hoursDownLeft{position:relative; left:3px;}
+.payment-faq li {width: 24%;}
+.reg .invite-links {margin-top:0px;}
+#BottomMenu {margin-top: -10px;}
+
+#TopMenu ul {display: block; height: 25px; margin-bottom: 20px;}
+#container {top: 50px; position: relative; }

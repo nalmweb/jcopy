@@ -1,0 +1,792 @@
+Socnet_User Object
+(
+    [id] => 40
+    [login] => konan.com@gmail.com
+    [pass] => c8837b23ff8aaa8a2dde915473ce0991
+    [gender] => 
+    [birthday] => 2011-11-03 14:05:41
+    [birthdayPrivate] => 0
+    [nikname] => konan
+    [firstname] => Доткомыч
+    [middlename] => 
+    [admin] => 1
+    [lastname] => Алексей
+    [viewAs] => 
+    [post] => 
+    [intro] => фыафывфыыфаыфваыва ыфваыф ыфва фываф фыав 
+    [headline] => 
+    [registerCode] => QNy3ZyDEtpQqlx7YamAB682oQNs6BupWeKFw7xzrXepRYNWBzb
+    [registerDate] => 2008-01-29 09:56:45
+    [lastAccessDate] => 2011-12-22 19:16:59
+    [status] => active
+    [cityId] => 258
+    [company] => 
+    [metroId] => 0
+    [latitude] => 53.95609
+    [longitude] => 27.55371
+    [zoom] => 5
+    [street] => 
+    [build] => 
+    [apartment] => 
+    [age] => 0
+    [profitId] => 0
+    [skype] => 
+    [icq] => 
+    [msn] => 
+    [livejournal] => 
+    [homepage] => 
+    [phone] => 
+    [experience] => 
+    [user_adv_path] => http://jcopy.dev/users/40
+    [bikeId] => 1
+    [comment_id] => 10
+    [num_comments] => 0
+    [comments_tname:Socnet_User:private] => comment__user
+    [Avatar:Socnet_User:private] => 
+    [City:Socnet_User:private] => 
+    [Metro:Socnet_User:private] => 
+    [Country:Socnet_User:private] => 
+    [Contacts:Socnet_User:private] => 
+    [Profit:Socnet_User:private] => 
+    [Bike:Socnet_User:private] => 
+    [helmetIcon:Socnet_User:private] => 
+    [helmetShadowIcon:Socnet_User:private] => 
+    [UserPath:Socnet_User:private] => 
+    [AuthResult:Socnet_User:private] => 
+    [isUsedNamedPath:Socnet_User:private] => 
+    [_db] => Zend_Db_Adapter_Pdo_Mysql Object
+        (
+            [_pdoType:protected] => mysql
+            [_config:protected] => Array
+                (
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => jcopy_db
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+        )
+
+    [tableName] => user
+    [isExist] => 1
+    [pkColName] => id
+    [record:protected] => Array
+        (
+            [id] => id
+            [login] => login
+            [pass] => pass
+            [gender] => gender
+            [birthday] => birthday
+            [birthday_private] => birthdayPrivate
+            [nikname] => nikname
+            [firstname] => firstname
+            [middlename] => middlename
+            [admin] => admin
+            [lastname] => lastname
+            [view_as] => viewAs
+            [intro] => intro
+            [register_date] => registerDate
+            [register_code] => registerCode
+            [last_access] => lastAccessDate
+            [status] => status
+            [city_id] => cityId
+            [metro_id] => metroId
+            [latitude] => latitude
+            [longitude] => longitude
+            [zoom] => zoom
+            [company] => company
+            [post] => post
+            [skype] => skype
+            [icq] => icq
+            [msn] => msn
+            [livejournal] => livejournal
+            [homepage] => homepage
+            [phone] => phone
+            [street] => street
+            [build] => build
+            [apartment] => apartment
+            [profit_id] => profitId
+            [experience] => experience
+            [bike_id] => bikeId
+            [comment_id] => comment_id
+            [num_comments] => num_comments
+        )
+
+    [cache:Socnet_Data_Entity:private] => 
+    [EntityTypeId] => 
+    [_auth] => Zend_Auth_Adapter_DbTable Object
+        (
+            [_zendDb:protected] => Zend_Db_Adapter_Pdo_Mysql Object
+                (
+                    [_pdoType:protected] => mysql
+                    [_config:protected] => Array
+                        (
+                            [host] => localhost
+                            [username] => root
+                            [password] => 
+                            [dbname] => jcopy_db
+                            [options] => Array
+                                (
+                                    [caseFolding] => 0
+                                    [autoQuoteIdentifiers] => 1
+                                )
+
+                            [driver_options] => Array
+                                (
+                                )
+
+                        )
+
+                    [_fetchMode:protected] => 2
+                    [_profiler:protected] => Zend_Db_Profiler Object
+                        (
+                            [_queryProfiles:protected] => Array
+                                (
+                                )
+
+                            [_enabled:protected] => 
+                            [_filterElapsedSecs:protected] => 
+                            [_filterTypes:protected] => 
+                        )
+
+                    [_connection:protected] => PDO Object
+                        (
+                        )
+
+                    [_caseFolding:protected] => 0
+                    [_autoQuoteIdentifiers:protected] => 1
+                )
+
+            [_tableName:protected] => user
+            [_identityColumn:protected] => login
+            [_credentialColumn:protected] => pass
+            [_identity:protected] => 
+            [_credential:protected] => 
+            [_credentialTreatment:protected] => 
+            [_resultRow:protected] => 
+        )
+
+)
+
+Socnet_User Object
+(
+    [id] => 40
+    [login] => konan.com@gmail.com
+    [pass] => c8837b23ff8aaa8a2dde915473ce0991
+    [gender] => 
+    [birthday] => 2011-11-03 14:05:41
+    [birthdayPrivate] => 0
+    [nikname] => konan
+    [firstname] => Доткомыч
+    [middlename] => 
+    [admin] => 1
+    [lastname] => Алексей
+    [viewAs] => 
+    [post] => 
+    [intro] => фыафывфыыфаыфваыва ыфваыф ыфва фываф фыав 
+    [headline] => 
+    [registerCode] => QNy3ZyDEtpQqlx7YamAB682oQNs6BupWeKFw7xzrXepRYNWBzb
+    [registerDate] => 2008-01-29 09:56:45
+    [lastAccessDate] => 2011-12-22 19:17:47
+    [status] => active
+    [cityId] => 258
+    [company] => 
+    [metroId] => 0
+    [latitude] => 53.95609
+    [longitude] => 27.55371
+    [zoom] => 5
+    [street] => 
+    [build] => 
+    [apartment] => 
+    [age] => 0
+    [profitId] => 0
+    [skype] => 
+    [icq] => 
+    [msn] => 
+    [livejournal] => 
+    [homepage] => 
+    [phone] => 
+    [experience] => 
+    [user_adv_path] => http://jcopy.dev/users/40
+    [bikeId] => 1
+    [comment_id] => 10
+    [num_comments] => 0
+    [comments_tname:Socnet_User:private] => comment__user
+    [Avatar:Socnet_User:private] => 
+    [City:Socnet_User:private] => 
+    [Metro:Socnet_User:private] => 
+    [Country:Socnet_User:private] => 
+    [Contacts:Socnet_User:private] => 
+    [Profit:Socnet_User:private] => 
+    [Bike:Socnet_User:private] => 
+    [helmetIcon:Socnet_User:private] => 
+    [helmetShadowIcon:Socnet_User:private] => 
+    [UserPath:Socnet_User:private] => 
+    [AuthResult:Socnet_User:private] => 
+    [isUsedNamedPath:Socnet_User:private] => 
+    [_db] => Zend_Db_Adapter_Pdo_Mysql Object
+        (
+            [_pdoType:protected] => mysql
+            [_config:protected] => Array
+                (
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => jcopy_db
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+        )
+
+    [tableName] => user
+    [isExist] => 1
+    [pkColName] => id
+    [record:protected] => Array
+        (
+            [id] => id
+            [login] => login
+            [pass] => pass
+            [gender] => gender
+            [birthday] => birthday
+            [birthday_private] => birthdayPrivate
+            [nikname] => nikname
+            [firstname] => firstname
+            [middlename] => middlename
+            [admin] => admin
+            [lastname] => lastname
+            [view_as] => viewAs
+            [intro] => intro
+            [register_date] => registerDate
+            [register_code] => registerCode
+            [last_access] => lastAccessDate
+            [status] => status
+            [city_id] => cityId
+            [metro_id] => metroId
+            [latitude] => latitude
+            [longitude] => longitude
+            [zoom] => zoom
+            [company] => company
+            [post] => post
+            [skype] => skype
+            [icq] => icq
+            [msn] => msn
+            [livejournal] => livejournal
+            [homepage] => homepage
+            [phone] => phone
+            [street] => street
+            [build] => build
+            [apartment] => apartment
+            [profit_id] => profitId
+            [experience] => experience
+            [bike_id] => bikeId
+            [comment_id] => comment_id
+            [num_comments] => num_comments
+        )
+
+    [cache:Socnet_Data_Entity:private] => 
+    [EntityTypeId] => 
+    [_auth] => Zend_Auth_Adapter_DbTable Object
+        (
+            [_zendDb:protected] => Zend_Db_Adapter_Pdo_Mysql Object
+                (
+                    [_pdoType:protected] => mysql
+                    [_config:protected] => Array
+                        (
+                            [host] => localhost
+                            [username] => root
+                            [password] => 
+                            [dbname] => jcopy_db
+                            [options] => Array
+                                (
+                                    [caseFolding] => 0
+                                    [autoQuoteIdentifiers] => 1
+                                )
+
+                            [driver_options] => Array
+                                (
+                                )
+
+                        )
+
+                    [_fetchMode:protected] => 2
+                    [_profiler:protected] => Zend_Db_Profiler Object
+                        (
+                            [_queryProfiles:protected] => Array
+                                (
+                                )
+
+                            [_enabled:protected] => 
+                            [_filterElapsedSecs:protected] => 
+                            [_filterTypes:protected] => 
+                        )
+
+                    [_connection:protected] => PDO Object
+                        (
+                        )
+
+                    [_caseFolding:protected] => 0
+                    [_autoQuoteIdentifiers:protected] => 1
+                )
+
+            [_tableName:protected] => user
+            [_identityColumn:protected] => login
+            [_credentialColumn:protected] => pass
+            [_identity:protected] => 
+            [_credential:protected] => 
+            [_credentialTreatment:protected] => 
+            [_resultRow:protected] => 
+        )
+
+)
+
+Socnet_User Object
+(
+    [id] => 40
+    [login] => konan.com@gmail.com
+    [pass] => c8837b23ff8aaa8a2dde915473ce0991
+    [gender] => 
+    [birthday] => 2011-11-03 14:05:41
+    [birthdayPrivate] => 0
+    [nikname] => konan
+    [firstname] => Доткомыч
+    [middlename] => 
+    [admin] => 1
+    [lastname] => Алексей
+    [viewAs] => 
+    [post] => 
+    [intro] => фыафывфыыфаыфваыва ыфваыф ыфва фываф фыав 
+    [headline] => 
+    [registerCode] => QNy3ZyDEtpQqlx7YamAB682oQNs6BupWeKFw7xzrXepRYNWBzb
+    [registerDate] => 2008-01-29 09:56:45
+    [lastAccessDate] => 2011-12-22 19:17:47
+    [status] => active
+    [cityId] => 258
+    [company] => 
+    [metroId] => 0
+    [latitude] => 53.95609
+    [longitude] => 27.55371
+    [zoom] => 5
+    [street] => 
+    [build] => 
+    [apartment] => 
+    [age] => 0
+    [profitId] => 0
+    [skype] => 
+    [icq] => 
+    [msn] => 
+    [livejournal] => 
+    [homepage] => 
+    [phone] => 
+    [experience] => 
+    [user_adv_path] => http://jcopy.dev/users/40
+    [bikeId] => 1
+    [comment_id] => 10
+    [num_comments] => 0
+    [comments_tname:Socnet_User:private] => comment__user
+    [Avatar:Socnet_User:private] => 
+    [City:Socnet_User:private] => 
+    [Metro:Socnet_User:private] => 
+    [Country:Socnet_User:private] => 
+    [Contacts:Socnet_User:private] => 
+    [Profit:Socnet_User:private] => 
+    [Bike:Socnet_User:private] => 
+    [helmetIcon:Socnet_User:private] => 
+    [helmetShadowIcon:Socnet_User:private] => 
+    [UserPath:Socnet_User:private] => 
+    [AuthResult:Socnet_User:private] => 
+    [isUsedNamedPath:Socnet_User:private] => 
+    [_db] => Zend_Db_Adapter_Pdo_Mysql Object
+        (
+            [_pdoType:protected] => mysql
+            [_config:protected] => Array
+                (
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => jcopy_db
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+        )
+
+    [tableName] => user
+    [isExist] => 1
+    [pkColName] => id
+    [record:protected] => Array
+        (
+            [id] => id
+            [login] => login
+            [pass] => pass
+            [gender] => gender
+            [birthday] => birthday
+            [birthday_private] => birthdayPrivate
+            [nikname] => nikname
+            [firstname] => firstname
+            [middlename] => middlename
+            [admin] => admin
+            [lastname] => lastname
+            [view_as] => viewAs
+            [intro] => intro
+            [register_date] => registerDate
+            [register_code] => registerCode
+            [last_access] => lastAccessDate
+            [status] => status
+            [city_id] => cityId
+            [metro_id] => metroId
+            [latitude] => latitude
+            [longitude] => longitude
+            [zoom] => zoom
+            [company] => company
+            [post] => post
+            [skype] => skype
+            [icq] => icq
+            [msn] => msn
+            [livejournal] => livejournal
+            [homepage] => homepage
+            [phone] => phone
+            [street] => street
+            [build] => build
+            [apartment] => apartment
+            [profit_id] => profitId
+            [experience] => experience
+            [bike_id] => bikeId
+            [comment_id] => comment_id
+            [num_comments] => num_comments
+        )
+
+    [cache:Socnet_Data_Entity:private] => 
+    [EntityTypeId] => 
+    [_auth] => Zend_Auth_Adapter_DbTable Object
+        (
+            [_zendDb:protected] => Zend_Db_Adapter_Pdo_Mysql Object
+                (
+                    [_pdoType:protected] => mysql
+                    [_config:protected] => Array
+                        (
+                            [host] => localhost
+                            [username] => root
+                            [password] => 
+                            [dbname] => jcopy_db
+                            [options] => Array
+                                (
+                                    [caseFolding] => 0
+                                    [autoQuoteIdentifiers] => 1
+                                )
+
+                            [driver_options] => Array
+                                (
+                                )
+
+                        )
+
+                    [_fetchMode:protected] => 2
+                    [_profiler:protected] => Zend_Db_Profiler Object
+                        (
+                            [_queryProfiles:protected] => Array
+                                (
+                                )
+
+                            [_enabled:protected] => 
+                            [_filterElapsedSecs:protected] => 
+                            [_filterTypes:protected] => 
+                        )
+
+                    [_connection:protected] => PDO Object
+                        (
+                        )
+
+                    [_caseFolding:protected] => 0
+                    [_autoQuoteIdentifiers:protected] => 1
+                )
+
+            [_tableName:protected] => user
+            [_identityColumn:protected] => login
+            [_credentialColumn:protected] => pass
+            [_identity:protected] => 
+            [_credential:protected] => 
+            [_credentialTreatment:protected] => 
+            [_resultRow:protected] => 
+        )
+
+)
+
+Socnet_User Object
+(
+    [id] => 40
+    [login] => konan.com@gmail.com
+    [pass] => c8837b23ff8aaa8a2dde915473ce0991
+    [gender] => 
+    [birthday] => 2011-11-03 14:05:41
+    [birthdayPrivate] => 0
+    [nikname] => konan
+    [firstname] => Доткомыч
+    [middlename] => 
+    [admin] => 1
+    [lastname] => Алексей
+    [viewAs] => 
+    [post] => 
+    [intro] => фыафывфыыфаыфваыва ыфваыф ыфва фываф фыав 
+    [headline] => 
+    [registerCode] => QNy3ZyDEtpQqlx7YamAB682oQNs6BupWeKFw7xzrXepRYNWBzb
+    [registerDate] => 2008-01-29 09:56:45
+    [lastAccessDate] => 2011-12-22 19:17:50
+    [status] => active
+    [cityId] => 258
+    [company] => 
+    [metroId] => 0
+    [latitude] => 53.95609
+    [longitude] => 27.55371
+    [zoom] => 5
+    [street] => 
+    [build] => 
+    [apartment] => 
+    [age] => 0
+    [profitId] => 0
+    [skype] => 
+    [icq] => 
+    [msn] => 
+    [livejournal] => 
+    [homepage] => 
+    [phone] => 
+    [experience] => 
+    [user_adv_path] => http://jcopy.dev/users/40
+    [bikeId] => 1
+    [comment_id] => 10
+    [num_comments] => 0
+    [comments_tname:Socnet_User:private] => comment__user
+    [Avatar:Socnet_User:private] => 
+    [City:Socnet_User:private] => 
+    [Metro:Socnet_User:private] => 
+    [Country:Socnet_User:private] => 
+    [Contacts:Socnet_User:private] => 
+    [Profit:Socnet_User:private] => 
+    [Bike:Socnet_User:private] => 
+    [helmetIcon:Socnet_User:private] => 
+    [helmetShadowIcon:Socnet_User:private] => 
+    [UserPath:Socnet_User:private] => 
+    [AuthResult:Socnet_User:private] => 
+    [isUsedNamedPath:Socnet_User:private] => 
+    [_db] => Zend_Db_Adapter_Pdo_Mysql Object
+        (
+            [_pdoType:protected] => mysql
+            [_config:protected] => Array
+                (
+                    [host] => localhost
+                    [username] => root
+                    [password] => 
+                    [dbname] => jcopy_db
+                    [options] => Array
+                        (
+                            [caseFolding] => 0
+                            [autoQuoteIdentifiers] => 1
+                        )
+
+                    [driver_options] => Array
+                        (
+                        )
+
+                )
+
+            [_fetchMode:protected] => 2
+            [_profiler:protected] => Zend_Db_Profiler Object
+                (
+                    [_queryProfiles:protected] => Array
+                        (
+                        )
+
+                    [_enabled:protected] => 
+                    [_filterElapsedSecs:protected] => 
+                    [_filterTypes:protected] => 
+                )
+
+            [_connection:protected] => PDO Object
+                (
+                )
+
+            [_caseFolding:protected] => 0
+            [_autoQuoteIdentifiers:protected] => 1
+        )
+
+    [tableName] => user
+    [isExist] => 1
+    [pkColName] => id
+    [record:protected] => Array
+        (
+            [id] => id
+            [login] => login
+            [pass] => pass
+            [gender] => gender
+            [birthday] => birthday
+            [birthday_private] => birthdayPrivate
+            [nikname] => nikname
+            [firstname] => firstname
+            [middlename] => middlename
+            [admin] => admin
+            [lastname] => lastname
+            [view_as] => viewAs
+            [intro] => intro
+            [register_date] => registerDate
+            [register_code] => registerCode
+            [last_access] => lastAccessDate
+            [status] => status
+            [city_id] => cityId
+            [metro_id] => metroId
+            [latitude] => latitude
+            [longitude] => longitude
+            [zoom] => zoom
+            [company] => company
+            [post] => post
+            [skype] => skype
+            [icq] => icq
+            [msn] => msn
+            [livejournal] => livejournal
+            [homepage] => homepage
+            [phone] => phone
+            [street] => street
+            [build] => build
+            [apartment] => apartment
+            [profit_id] => profitId
+            [experience] => experience
+            [bike_id] => bikeId
+            [comment_id] => comment_id
+            [num_comments] => num_comments
+        )
+
+    [cache:Socnet_Data_Entity:private] => 
+    [EntityTypeId] => 
+    [_auth] => Zend_Auth_Adapter_DbTable Object
+        (
+            [_zendDb:protected] => Zend_Db_Adapter_Pdo_Mysql Object
+                (
+                    [_pdoType:protected] => mysql
+                    [_config:protected] => Array
+                        (
+                            [host] => localhost
+                            [username] => root
+                            [password] => 
+                            [dbname] => jcopy_db
+                            [options] => Array
+                                (
+                                    [caseFolding] => 0
+                                    [autoQuoteIdentifiers] => 1
+                                )
+
+                            [driver_options] => Array
+                                (
+                                )
+
+                        )
+
+                    [_fetchMode:protected] => 2
+                    [_profiler:protected] => Zend_Db_Profiler Object
+                        (
+                            [_queryProfiles:protected] => Array
+                                (
+                                )
+
+                            [_enabled:protected] => 
+                            [_filterElapsedSecs:protected] => 
+                            [_filterTypes:protected] => 
+                        )
+
+                    [_connection:protected] => PDO Object
+                        (
+                        )
+
+                    [_caseFolding:protected] => 0
+                    [_autoQuoteIdentifiers:protected] => 1
+                )
+
+            [_tableName:protected] => user
+            [_identityColumn:protected] => login
+            [_credentialColumn:protected] => pass
+            [_identity:protected] => 
+            [_credential:protected] => 
+            [_credentialTreatment:protected] => 
+            [_resultRow:protected] => 
+        )
+
+)
+

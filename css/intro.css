@@ -1,0 +1,60 @@
+ё/* hero */
+#container #main #hero { background-color:#; height:332px; margin:0; padding:0; width:500px;
+}
+#profile #container #main #hero{ height:332px;
+}
+
+/* content */
+
+
+/* index specific */
+
+#crossfade { position:relative; height:332px; width:500px; overflow:hidden; margin:0; padding:0;
+}
+.fader{ display:none; }
+#crossfade .fader { display:block; }
+
+#crossfade .image{ position:absolute; }
+#crossfade #image0 { top:0; left:0; }
+#crossfade #image1 { top:0; left:0; }
+#crossfade #image2 { top:0; left:0; }
+#crossfade #image3 { top:0; left:0; }
+#crossfade #image4 { top:0; left:0; }
+
+#crossfade .text { position:absolute; z-index:3;
+	font: bold 27px Arial, Helvetica, Geneva, sans-serif;
+	color: #fff;
+	position: absolute;
+	background-color: black;
+	
+	width: 500px;
+	opacity: 0.80;
+	bottom: 0;
+	visibility: visible;
+}
+
+
+/* позиции текста на картинке
+#crossfade #text0 { top:80px; left:23px; }
+#crossfade #text1 { top:44px; left:23px; }
+#crossfade #text2 { top:102px; left:23px; }
+#crossfade #text3 { top:255px; left:23px; }
+#crossfade #text4 { top:125px; left:23px; }
+*/
+
+
+
+#crossfade .text p {
+	margin-left: 10px;
+	margin-top: 5px;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px black;
+	font-size: 30px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	vertical-align: middle;
+	margin-bottom: 5px;
+}
+
+/*tips specific */
+a.movielink { color:#0099FF; text-decoration:none; line-height:12px; }
+a.movielink:hover { color:#00CCFF; }

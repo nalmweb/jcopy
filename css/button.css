@@ -1,0 +1,83 @@
+a.button {
+    background: transparent url(/images/bg_button_a.gif) no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-top:3px;
+    margin-right: 6px;
+    padding-right: 18px; 
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url(/images/bg_button_span.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; 
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; 
+}
+
+.RightButton {
+	float: right;
+	padding-right: 8px;
+	display: inline;
+}
+
+.RightButton .button {
+	float: right;
+    }
+.LeftButton {
+	float: left;
+	padding-left: 8px;
+	display: inline;
+}
+
+.LeftButton .button {
+	float: left;
+    }
+
+.buttons-pannel-pop {
+ width: 100%;
+ /*float: right;*/
+ padding: 10px 0 9px 0;
+}
+
+.buttons-pannel-pop div {
+ padding-left: 50%;
+}
+
+.buttons-pannel-pop div div {
+ padding-left: 3px;
+ margin-right: 0;
+ float: left;
+}
+.RightButton {
+	float: right;
+	padding-right: 8px;
+	display: inline;
+}
+
+.RightButton .button {
+	float: right;
+    }
+.LeftButton {
+	float: left;
+	padding-left: 8px;
+	display: inline;
+}
+
+.LeftButton .button {
+	float: left;
+}
